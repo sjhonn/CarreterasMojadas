@@ -1,59 +1,35 @@
-A más de cien
-Contando las luces para volver
-De nuevo estoy
-Buscándote sin saber dónde voy
-Y del timón
-Aferrándome con fuerzas
-Adivinando qué piensas
-Muriendo de sed de verte otra vez
-Dos mil cigarros
-Y mil cervezas en la cabeza
-Alucinando
-Que el auto se eleva por la maleza
-De nuevo el sudor
-Va enfriándome las venas
-Empapándome de penas
-Y si mi destino está en ese camino
-Me lo llevaré
-Carreteras mojadas
-Nieblas heladas
-Otra vez estoy manejando en la madrugada
-Con el temor de ser
-O lo que pueda ver
-Seguiré manejando el auto hasta la mañana
-Ya es madrugada
-Casi las cuatro de la mañana
-Cayendo solas
-Las almas que en vida eran desdichadas
-Perdóname
-Fue sin querer
-Y es que no entiendo
-Si hay tanto tiempo
-Sé que puedes volver
-Carreteras mojadas
-Nieblas heladas
-Otra vez estoy manejando en la madrugada
-Con el temor de ser
-O lo que pueda ver
-Seguiré manejando el auto hasta la mañana
-El miedo de verte me va rodeando
-Te va separando de mí
-Te va separando de mí
-♪
-Carreteras mojadas
-Nieblas heladas
-Otra vez estoy manejando en la madrugada
-Con el temor de ser
-O lo que pueda ver
-Seguiré manejando el auto hasta la mañana
-El miedo de verte me va rodeando
-Te va separando de mí
-Te va separando de mí
-Carreteras mojadas
-Nieblas heladas
-Otra vez estoy manejando en la madrugada
-Con el temor de ser
-O lo que pueda ver
-Seguiré manejando el auto hasta la mañana
-El miedo de verte me va rodeando
-Te va separando de mí
+<div align="center">
+  <h1>CarreterasMojadas</h1>
+
+  <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+
+  <p><em>Simulación interactiva de tráfico urbano basada en Lima Metropolitana.</em></p>
+</div>
+
+---
+
+## Características Destacadas
+
+- **Lima en vivo:** 10 distritos interconectados por vías conocidas (Javier Prado, Vía Expresa, Costa Verde, etc.).
+- **Tráfico dinámico:** Múltiples tipos de transporte (autos, motos, buses, bicicletas) con rutas y destinos independientes.
+- **Clima y físicas:** Sol, lluvia, tormenta y niebla. Las carreteras mojadas reducen la velocidad y aumentan el riesgo de accidentes.
+- **Incidentes:** Vehículos averiados, choques y despliegue automático de ambulancias, patrullas o bomberos.
+- **Gestión completa:** Estadísticas en tiempo real, ventanas independientes por distrito, guardado/carga de simulaciones y exportación a CSV.
+
+## Requisitos
+
+- Java 21 o superior.
+- Maven instalado.
+- Visual Studio Code (con *Extension Pack for Java* recomendado).
+
+## Ejecución Rápida
+
+Para iniciar la simulación directamente en **Visual Studio Code**, sigue estos pasos:
+
+1. Abre la carpeta del proyecto en el editor.
+2. Abre la terminal integrada del programa.
+3. Escribe el comando `mvn compile exec:java` y presiona Enter.
+
+*Nota: Alternativamente, puedes abrir el archivo `src/main/java/carreterasmojadas/Main.java` y utilizar la opción "Run Java" que aparece en el propio editor.*
